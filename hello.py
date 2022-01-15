@@ -1,4 +1,5 @@
 def transferLbtoKg(x):
-    return 0.46*x
-    
+    return format(0.46 * x, ".2f")
+
+
 print(transferLbtoKg(23))
