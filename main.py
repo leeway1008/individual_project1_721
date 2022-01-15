@@ -13,11 +13,13 @@ async def transferLbtoKg(num1: int):
     # kg = num1*2
     return {"kg":kg}
 
+@app.get("/oztog/{num1}")
 async def transferOztoG(num1: int):
     g = format(28.35 * num1, ".2f")
     # kg = num1*2
     return {"g":g}
     
+@app.get("/gallontol/{num1}")
 async def transferGallontoL(num1: int):
     l = format(3.79 * num1, ".2f")
     # kg = num1*2
