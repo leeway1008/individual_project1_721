@@ -10,4 +10,4 @@ docker image ls
 docker run -d -p 8080:8080 micro
 
 # debug
-# docker run -it --entrypoint /bin/bash microservices
+docker run -it --entrypoint /bin/bash microservices
